@@ -10,17 +10,14 @@ var path = require('path');
 
 gulp.task('assets', function() {
   gulp.src('assets/**/*', {base:"./assets"})
-        .pipe(gulp.dest('dist'));
-
-  gulp.src('data/**/*', {base:"."})
-        .pipe(gulp.dest('dist'));
+        .pipe(gulp.dest('lens'));
 });
 
 gulp.task('sass', function () {
   gulp.src('./lens.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(rename('lens.css'))
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./lens'));
 });
 
 gulp.task('browserify', function () {
@@ -37,9 +34,9 @@ gulp.task('browserify', function () {
             console.log(error.stack);
             this.emit('end');
         })
-        .pipe(uglify())
+       // .pipe(uglify())
         .pipe(rename('lens.js'))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./lens'));
 });
 
 gulp.task('default', ['assets', 'sass', 'browserify']);

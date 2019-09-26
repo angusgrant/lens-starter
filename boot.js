@@ -28,7 +28,7 @@ var qs = function () {
 // This document gets loaded by default
 // --------
 
-var documentURL = "data/example.xml";
+var documentURL = "/docserver/fulltext/_journal-short-code_/_volume-no_/_issue-no_/example.xml";
 
 $(function() {
 

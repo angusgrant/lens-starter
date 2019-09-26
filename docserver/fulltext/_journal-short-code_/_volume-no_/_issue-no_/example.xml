@@ -1,0 +1,3000 @@
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="1.1" xml:lang="EN">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="nlm-ta">mgen</journal-id>
+            <journal-id journal-id-type="hwp">mgen</journal-id>
+            <journal-id journal-id-type="publisher-id">mgen</journal-id>
+            <journal-title-group>
+                <journal-title>Microbial Genomics</journal-title>
+                <abbrev-journal-title abbrev-type="pubmed">mgen</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2057-5858</issn>
+            <publisher>
+                <publisher-name>Microbiology Society</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="publisher-id">mgen000225</article-id>
+            <article-id pub-id-type="doi">10.1099/mgen.0.000225</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Research Article</subject>
+                    <subj-group subj-group-type="heading">
+                        <subject>
+Microbial Evolution and Epidemiology: Population Genomics
+                        </subject>
+                    </subj-group>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>
+Australian porcine clonal complex 10 (CC10)
+                    <italic toggle="yes">Escherichia coli</italic>
+belong to multiple sublineages of a highly diverse global CC10 phylogeny
+                </article-title>
+                <alt-title alt-title-type="recto-page-foot">
+                    <ext-link ext-link-type="uri" xlink:href="http://mgen.microbiologyresearch.org" xlink:type="simple">http://mgen.microbiologyresearch.org</ext-link>
+                </alt-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name name-style="western">
+                        <surname>Reid</surname>
+                        <given-names>Cameron J.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name name-style="western">
+                        <surname>DeMaere</surname>
+                        <given-names>Matthew Z.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                    <name name-style="western">
+                        <surname>Djordjevic</surname>
+                        <given-names>Steven P.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="corresp" rid="cor1">*</xref>
+                </contrib>
+                <aff id="aff1">
+                    <institution>The i3 institute, University of Technology Sydney</institution>
+,
+                    <addr-line>Ultimo, NSW 2007</addr-line>
+,
+                    <country>Australia</country>
+                </aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="cor1">
+                    <bold>*Correspondence:</bold>
+Steven P. Djordjevic,
+                    <email xlink:href="steven.djordjevic@uts.edu.au" xlink:type="simple">steven.djordjevic@uts.edu.au</email>
+                </corresp>
+                <fn id="FN1">
+                    <p>
+All supporting data, code and protocols have been provided within the article or through supplementary data files. One supplementary table and three supplementary figures are available with the online version of this article.
+                    </p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="ppub">
+                <month>3</month>
+                <year>2019</year>
+            </pub-date>
+            <pub-date pub-type="epub">
+                <day>10</day>
+                <month>10</month>
+                <year>2018</year>
+            </pub-date>
+            <volume>5</volume>
+            <issue>3</issue>
+            <elocation-id>e000225</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>02</day>
+                    <month>07</month>
+                    <year>2018</year>
+                </date>
+                <date date-type="accepted">
+                    <day>10</day>
+                    <month>09</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>© 2019 The Authors</copyright-statement>
+                <copyright-year>2019</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/" license-type="open-access">
+                    <license-p>
+This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+                    </license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="mgen000225.pdf"/>
+            <abstract>
+                <p>
+We recently identified clonal complex 10 (CC10)
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                        </named-content>
+                    </italic>
+as the predominant clonal group in two populations of healthy Australian food-production pigs. CC10 are highly successful, colonizing humans, food-production animals, fresh produce and environmental niches. Furthermore,
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+within CC10 are frequently drug resistant and increasingly reported as human and animal extra-intestinal pathogens. In order to develop a high-resolution global phylogeny and determine the repertoire of antimicrobial-resistance genes, virulence-associated genes and plasmid types within this clonal group, we downloaded 228 publicly available CC10 short-read genome sequences for comparison with 20 porcine CC10 we have previously described. Core genome single nucleotide polymorphism phylogeny revealed a highly diverse global phylogeny consisting of multiple lineages that did not cluster by geography or source of the isolates. Australian porcine strains belonged to several of these divergent lineages, indicative that CC10 is present in these animals due to multiple colonization events. Differences in resistance gene and plasmid carriage between porcine strains and the global collection highlighted the role of lateral gene transfer in the evolution of CC10 strains. Virulence profiles typical of extra-intestinal pathogenic
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+were present in both Australian porcine strains and the broader collection. As both the core phylogeny and accessory gene characteristics appeared unrelated to the geography or source of the isolates, it is likely that the global expansion of CC10 is not a recent event and may be associated with faecal carriage in humans.
+                </p>
+            </abstract>
+            <kwd-group>
+                <kwd>
+commensal
+                    <italic toggle="yes">E. coli</italic>
+                </kwd>
+                <kwd>
+porcine
+                    <italic toggle="yes">E. coli</italic>
+                </kwd>
+                <kwd>clonal complex 10</kwd>
+                <kwd>antimicrobial resistance</kwd>
+                <kwd>microbial genomic epidemiology</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group>
+                    <funding-source>Australian Research Council</funding-source>
+                    <award-id>LP150100912</award-id>
+                </award-group>
+            </funding-group>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>OpenAccessEmbargo</meta-name>
+                    <meta-value>0</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="s1-1">
+            <title>Abbreviations</title>
+            <p>
+AMR, antimicrobial resistance; ARG, antimicrobial-resistance gene; CC10, clonal complex 10; CI, confidence interval; ESBL, extended-spectrum β-lactamase; ExPEC, extra-intestinal pathogenic
+                <named-content content-type="species">
+                    <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                </named-content>
+; InPEC, intestinal pathogenic
+                <named-content content-type="species">
+                    <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                </named-content>
+; MDS, multidimensional scaling; MLST, multilocus sequence typing; pMLST, plasmid-based multilocus sequence typing; SNP, single nucleotide polymorphism; VAG, virulence-associated gene.
+            </p>
+        </sec>
+        <sec id="s1-2">
+            <title>Data Summary</title>
+            <p>
+1. All R code used in this study, single nucleotide polymorphism tree files and a
+                <sc>fasta</sc>
+database of additional screening genes have been deposited in GitHub
+                <ext-link ext-link-type="uri" xlink:href="https://github.com/CJREID/CC10_supporting_data" xlink:type="simple">(https://github.com/CJREID/CC10_supporting_data)</ext-link>
+.
+            </p>
+            <p>
+2. Whole-genome sequenced short reads for the porcine strains in this study are available at Enterobase and the European Nucleotide Archive (ENA); accession numbers are listed in Table S1 (available with the online version of this article).
+            </p>
+        </sec>
+        <sec id="s1-3">
+            <title>Impact Statement</title>
+            <p>
+Clonal complex 10 (CC10)
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                    </named-content>
+                </italic>
+is a commensal gastrointestinal inhabitant in pigs and other food-producing animal species, and is potentially one of the most dominant clonal groups of commensal
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+.
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+CC10 is found in a wide range of vertebrate hosts as a commensal in the gastrointestinal tract and in aquatic environments, and carries diverse antimicrobial-resistance (AMR) genes and is known to cause extra-intestinal infections; however, the global epidemiology of this lineage has yet to be explored. Here, we provide a preliminary snapshot of the global phylogeny, AMR, virulence and plasmid gene carriage of CC10
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+. The work provides a reference point for further study of CC10
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+and illustrates that multiple lineages are globally disseminated. Due to its global range, intestinal carriage in both humans and animals, and wide variety of AMR and virulence genotypes, CC10
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+should be closely monitored in the context of public health.
+            </p>
+        </sec>
+        <sec id="s1-4" sec-type="intro">
+            <title>Introduction</title>
+            <p>
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                    </named-content>
+                </italic>
+is both a successful commensal and a serious pathogen affecting human and animal health, and is the most frequently isolated Gram-negative pathogen impacting human health [
+                <xref ref-type="bibr" rid="R1">1</xref>
+]. Multidrug-resistant infections (resistant to three or more classes of antimicrobials) are forecast to cause 10 million deaths per year by 2050, and it is expected that
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+will be responsible for 30 % of fatalities and 40 % of projected economic losses that arise as a consequence [
+                <xref ref-type="bibr" rid="R2">2</xref>
+]. Pathogenic
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+may infect intestinal sites (InPEC; intestinal pathogenic
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+) or extra-intestinal sites (ExPEC; extra-intestinal pathogenic
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+) [
+                <xref ref-type="bibr" rid="R3">3</xref>
+] and antimicrobial resistance (AMR) often complicates treatment, increasing rates of morbidity and mortality [
+                <xref ref-type="bibr" rid="R4">4</xref>
+]. Severe outbreaks of drug-resistant InPEC disease, such as the O104 : H4 outbreak in 2011, are well documented, as well as the global dissemination of resistant ExPEC clones, such as ST131 [
+                <xref ref-type="bibr" rid="R5 R6 R7">5–7</xref>
+]. Currently, responses to such events are reactive, and come after significant financial and human cost is incurred. It would, therefore, be beneficial to be able to identify, monitor and track populations of
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+that pose a threat to human health, so that risks can be predicted and strategies implemented to mitigate the impact. To this end, the emerging field of genomic epidemiology is critical, as it allows the highest resolution of microbial population structure and genetic determinants of virulence and AMR. By developing global databases of genomic, phenotypic, spatial and temporal information for
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+,
+                </italic>
+predictive disease management is a distinct possibility for the near future [
+                <xref ref-type="bibr" rid="R8 R9">8, 9</xref>
+].
+            </p>
+            <p>
+There is currently much debate about the contribution of different reservoirs of
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+to disease and AMR carriage in humans [
+                <xref ref-type="bibr" rid="R9 R10 R11 R12 R13">9–13</xref>
+]. Food-production animals and associated retail meats have been widely investigated and genetic similarities documented; however, the data is often limited to multilocus sequence typing (MLST) types and PCR identification of a select number of genes [
+                <xref ref-type="bibr" rid="R14 R15">14, 15</xref>
+]. Furthermore, the sample sizes used are a limiting factor in the significance of the conclusions that may be reached. Nevertheless, these studies provide a good starting point for further genomic investigation.
+            </p>
+            <p>
+We recently described the phylogeny, virulence-associated gene (VAG) and AMR gene (ARG) carriage in a collection of 103
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+genome sequences derived from the faeces of healthy Australian pigs [
+                <xref ref-type="bibr" rid="R16">16</xref>
+]. This study identified clonal complex 10 (CC10) as the predominant lineage within the collection. These CC10 strains were phylogenetically diverse and carried multiple ARGs and VAGs associated with ExPEC. CC10 is globally reported as a resident of the intestinal tract of humans, food-production animals, companion animals and wild animals [
+                <xref ref-type="bibr" rid="R14 R17">14, 17</xref>
+]. It has also been identified in retail meats and plant-based foods, as well as wastewater, rivers and urban streams [
+                <xref ref-type="bibr" rid="R18 R19">18, 19</xref>
+]. Furthermore, CC10 can cause extra-intestinal disease in pigs, dogs and humans [
+                <xref ref-type="bibr" rid="R14 R17 R20">14, 17, 20</xref>
+]. AMR, including extended-spectrum β-lactamase (ESBL) carriage, is also widely reported [
+                <xref ref-type="bibr" rid="R19 R21">19, 21</xref>
+]. These observations suggest a clonal complex with broad fitness characteristics, a wide host range, pathogenic potential and a variety of AMR traits. Despite the wealth of literature reporting CC10, the global population structure and diversity of VAGs and ARGs remains unknown.
+            </p>
+            <p>
+The aim of this study was firstly to examine a global collection of CC10
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+genome sequences to determine the population structure and the diversity of VAGs, ARGs and plasmid replicons. Secondly, we aimed to determine how Australian porcine CC10
+                <italic toggle="yes">
+                    <named-content content-type="species">
+                        <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                    </named-content>
+                </italic>
+relate to the global phylogeny, and to compare VAG, ARG and plasmid replicon carriage to the existing global collection.
+            </p>
+        </sec>
+        <sec id="s1-5" sec-type="methods">
+            <title>Methods</title>
+            <sec id="s2-5-1">
+                <title>Genome sequences used in this study</title>
+                <p>
+The 20 Australian porcine faecal-derived
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+CC10 strains included in this analysis were whole-genome sequenced using a modified Nextera protocol and the Illumina HiSeq platform, as previously described [
+                    <xref ref-type="bibr" rid="R16">16</xref>
+]. These strains retain their original names from the previous publication and are preceded by ‘F2_’. The 20 strains described in this paper are available as short reads in Enterobase (
+                    <ext-link ext-link-type="uri" xlink:href="http://enterobase.warwick.ac.uk/" xlink:type="simple">http://enterobase.warwick.ac.uk)</ext-link>
+and the European Nucleotide Archive. All accession numbers are listed in Table S1.
+                </p>
+                <p>
+Publicly available
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+CC10 Illumina short reads were downloaded from Enterobase (accessed 22/11/17). The database was queried for CC10 and a summary spreadsheet was downloaded in order to select sequences from well-defined sources, with the desired metadata for which full short reads were available. Accepted sources were: (i) animal including faeces (pig, cattle, poultry, horse, dog); (ii) food (pig, cattle, poultry, dairy cheese, plant); (iii) human including faeces, urine and blood; and (iv) environment including soil and wastewater. Furthermore, metadata was required for the year of isolation, and country and continent of origin. Sequences derived from laboratory strains were excluded, as were sequences with ambiguous or contradictory source details. This spreadsheet was then used to query the National Center for Biotechnology Information
+                    <sc>sra</sc>
+and download read sets using the download_enterobase_SRA_reads.sh script available at
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/bogemad/snp_phylogeny" xlink:type="simple">https://github.com/bogemad/snp_phylogeny</ext-link>
+. Enterobase sequences were named for analysis by removing the prefix ‘ESC_’ and suffix ‘AA’ from their ‘Uberstrain’ accession numbers (Table S1). Preliminary analysis indicated a number of clones were present in the collection; therefore, we selected a single representative strain in cases where groups of sequences were separated by ≤3 single nucleotide polymorphisms (SNPs), and had identical plasmid replicon and resistance-gene profiles. The final collection numbered 248 sequences, comprising 228 from Enterobase and 20 from our previous study.
+                </p>
+            </sec>
+            <sec id="s2-5-2">
+                <title>Phylogenetic analysis</title>
+                <p>
+Snippy v4.0.2 (
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/tseemann/snippy" xlink:type="simple">https://github.com/tseemann/snippy</ext-link>
+) was used with default parameters to map short reads from the 248 CC10 strains, as well as phylogroup A non-ST10 strain HS (gb|CP000802.1) to ST10 reference sequence K12-MG1655 (gb|U00096.3). A core genome alignment was then generated using the snippy-core function. This function generates two alignments, a ‘full core’ alignment of all reads to the reference genome and a ‘core SNP’ alignment consisting only of SNP sites present in all genomes, ignoring insertion and deletion variant types. Both of these alignments were used to generate maximum-likelihood trees. Files available as supporting data (see Data Summary) are hereafter named in parentheses. The full alignment was cleaned using the snippy-clean_full_aln function and filtered for recombination using default settings with Gubbins v2.3.4 [
+                    <xref ref-type="bibr" rid="R22">22</xref>
+] resulting in an alignment of 79 039 sites (full.core.clean.gubbins.aln). Variable positions present in all strains were then identified with SNP-sites v2.4.0 [
+                    <xref ref-type="bibr" rid="R23">23</xref>
+]. The final alignment consisted of 4515 SNP positions (full.core.clean.gubbins.snpsites.aln). The core SNP alignment generated by snippy (snippycore.aln) consisted of 72 136 sites. FastTree2 v2.1.10 [
+                    <xref ref-type="bibr" rid="R24">24</xref>
+] was used to generate maximum-likelihood phylogenetic trees under a GTR (generalised time-reversible)nucleotide substitution model with default settings for both of these alignments (full.core.clean.gubbins.snpsites.tree and snippycore.tree). The trees were visualized with metadata in iTOL 4.2.3 [
+                    <xref ref-type="bibr" rid="R25">25</xref>
+]. The full core tree was also rooted in FigTree v1.4.2 (
+                    <ext-link ext-link-type="uri" xlink:href="http://tree.bio.ed.ac.uk/software/figtree/" xlink:type="simple">http://tree.bio.ed.ac.uk/software/figtree/</ext-link>
+) and then visualized alongside gene-screening heatmaps in R (version 3.3.1) with ggtree 3.6 (full.core.clean.gubbins.snpsites.rooted.tree) [
+                    <xref ref-type="bibr" rid="R26">26</xref>
+]. Pairwise SNPs between all strains were extracted from the recombination filtered full core alignment using the snp_phylo_utils script available at
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/bogemad/snp_phylogeny" xlink:type="simple">https://github.com/bogemad/snp_phylogeny</ext-link>
+. All trees, alignments used to generate them, summary statistics from snippy-core and the pairwise SNP table are available at
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/CJREID/CC10_supporting_data" xlink:type="simple">https://github.com/CJREID/CC10_supporting_data</ext-link>
+.
+                </p>
+            </sec>
+            <sec id="s2-5-3">
+                <title>Gene screening</title>
+                <p>
+ARGs, VAGs, plasmid replicon genes and OH antigen genes were identified using
+                    <sc>ariba</sc>
+(version 2.10.1) [
+                    <xref ref-type="bibr" rid="R27">27</xref>
+] with ResFinder, PlasmidFinder, VirulenceFinder and SerotypeFinder databases available from the Center for Genomic Epidemiology (
+                    <ext-link ext-link-type="uri" xlink:href="http://www.genomicepidemiology.org/" xlink:type="simple">http://www.genomicepidemiology.org/)</ext-link>
+[see DataBibliography]. Pasteur MLST types were also determined with
+                    <sc>ariba</sc>
+’s built-in MLST typing function. An additional custom database of further virulence- and resistance-associated genes not present in the aforementioned databases was also used. This database is available at
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/CJREID/CC10_supporting_data" xlink:type="simple">https://github.com/CJREID/CC10_supporting_data</ext-link>
+. Gene presence or absence was then visualized with the phylogenetic tree in ggtree [
+                    <xref ref-type="bibr" rid="R26">26</xref>
+].
+                </p>
+            </sec>
+            <sec id="s2-5-4">
+                <title>Multidimensional scaling (MDS) analysis</title>
+                <p>
+In order to determine whether virulence or resistance and plasmid gene carriage was related to continent of isolation, sequence type or origin of CC10 strains, we conducted a non-metric MDS analysis in R using mass and vegan packages. Briefly, the Jaccard index was used to produce a pairwise distance matrix for absence/presence profiles of virulence and combined resistance and plasmid replicon genes for each strain. MDS was performed using the methods mass::isoMDS [
+                    <xref ref-type="bibr" rid="R28">28</xref>
+] in combination with vegan ::initMDS and vegan :: postMDS [
+                    <xref ref-type="bibr" rid="R29">29</xref>
+], with default settings. First, metric scaling was assumed to generate a baseline solution in two dimensions before iterating the same process with initMDS to reduce the stress value. postMDS was then used to standardize the final configurations for ease of interpretation. ggplot2 was used to plot the ordinations with clusters keyed separately on origin, sequence type and continent of isolation. A normal distribution was assumed to infer 95 % confidence interval (CI) ellipses. All R code used in this study is available at
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/CJREID/CC10_supporting_data" xlink:type="simple">https://github.com/CJREID/CC10_supporting_data</ext-link>
+.
+                </p>
+            </sec>
+            <sec id="s2-5-5">
+                <title>R package versions</title>
+                <p>
+The R package versions used were
+                    <sc>ape</sc>
+5.0, mass 7.3, vegan 2.4-5, dplyr 0.7.1, reshape2 1.4.2, grid 3.3.1, ggtree 1.6.11, ggplot2 2.2.1.
+                </p>
+            </sec>
+        </sec>
+        <sec id="s1-6">
+            <title>Results and Discussion</title>
+            <p>
+The collection of CC10 sequences (
+                <italic toggle="yes">n</italic>
+=248) encompassed eight sequence types (Achtman) from five continents. Pasteur sequence types were also determined; however, concordance between the two schemes was highly variable (Table S1). Sequences were classified as being of food, animal, environment or human origin (
+                <xref ref-type="table" rid="T1">Table 1</xref>
+). Strains were further classified into 16 sources, though 4 of these, for which there were less than 10 representatives, were grouped as ‘other’ for analysis (
+                <xref ref-type="fig" rid="F1">Fig. 1</xref>
+, Table S1). The collection was heavily weighted towards North American samples; however, the distribution between animal, food and human sources was fairly even. Environmental samples were scarce. Isolation dates mostly ranged from 1979 to 2017, though one sequence was derived from a strain isolated in 1895. A total of 122 serotypes were predicted and 10 of these were O-non-typeable (Table S1).
+            </p>
+            <table-wrap id="T1" position="float" orientation="portrait">
+                <label>Table 1.</label>
+                <caption>
+                    <title>CC10 sequences used in this study</title>
+                </caption>
+                <table>
+                    <thead>
+                        <tr>
+                            <th align="left" valign="top" rowspan="1" colspan="1">Source</th>
+                            <th align="center" colspan="8" valign="top" rowspan="1">Sequence type</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">Total</th>
+                        </tr>
+                        <tr>
+                            <th align="left" valign="bottom" rowspan="1" colspan="1"/>
+                            <th align="center" valign="top" rowspan="1" colspan="1">10</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">34</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">43</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">44</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">48</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">167</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">215</th>
+                            <th align="center" valign="top" rowspan="1" colspan="1">218</th>
+                            <th align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">Africa</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">13</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Food</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">4</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">3</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Human</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">5</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">Asia</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">23</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Animal</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Environment</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">3</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Human</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">6</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">6</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">Europe</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">46</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Animal</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">5</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Food</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">10</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Human</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">27</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">North America</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">136</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Animal</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">37</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">4</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Environment</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">6</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Food</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">33</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">8</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">10</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Human</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">21</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">3</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">Oceania</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">30</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Animal</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">10</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">6</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">4</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Human</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">6</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">Total source</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">248</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Animal</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">54</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">10</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">5</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">73</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Environment</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">8</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">4</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">15</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Food</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">47</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">11</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">10</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">71</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1"> Human</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">65</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">4</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">3</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">4</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">11</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1"/>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">89</td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="bottom" rowspan="1" colspan="1">Total sequence type</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">174</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">9</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">19</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">2</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">25</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">12</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">1</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">6</td>
+                            <td align="center" valign="bottom" rowspan="1" colspan="1">248</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <fig fig-type="figure" id="F1" position="float" orientation="portrait">
+                <label>Fig. 1.</label>
+                <caption>
+                    <p>
+Maximum-likelihood phylogeny of 248
+                        <italic toggle="yes">
+                            <named-content content-type="species">
+                                <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                            </named-content>
+                        </italic>
+CC10 sequences. Australian porcine sequences are in bold. Small nodes indicate high confidence splits, whilst larger nodes indicate lower confidence splits. Sequence types, continent of isolation, origin of isolates, source of isolates and year of isolation are annotated on the coloured outer rings according to the key. Clades are also coloured according to the key. Metadata for reference strain K12-MG1655 and outgroup strain HS is omitted.
+                    </p>
+                </caption>
+                <graphic xlink:href="mgen000225-f1.gif" position="float" orientation="portrait"/>
+            </fig>
+            <sec id="s2-6-1">
+                <title>
+Global phylogeny of
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+CC10
+                </title>
+                <p>
+In order to understand the population structure of our collection of CC10 isolates, a whole-genome alignment core SNP phylogeny was generated using the completed genome of ST10
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+K12-MG1655 as a reference and the complete genome of ST46 phylogroup A
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+HS as an out-group strain. The mean number of bases aligned to the reference in the full core alignment was 4 272 312/4 643 559 (92 %). Recombination filtering reduced this alignment to 79 039 bases and SNP identification resulted in a final alignment of 4515 variable sites present in all strains. A maximum-likelihood tree was built from this alignment and the tree comprised four well-supported major clades. Clade 1 comprised only ST48 strains. This clade was separated from clade 2 by approximately 450 core SNPs. Interestingly, another cluster of ST48 strains was present in clade 4, differing from ST10 strains by approximately 90 core SNPs. This suggests that ST48 comprises two separate evolutionary lineages that may have been separated by geographical or host-isolation for some time before disseminating again. A maximum-likelihood tree generated with the snippy-core core SNP alignment also supported this topology, albeit with some rearrangements in clade 4 (Fig. S1). This high-resolution approach supports previous work on these strains, in which Phylosift analysis also separated ST48 strains in the context of a wider collection of sequence types [
+                    <xref ref-type="bibr" rid="R27">27</xref>
+]. We are unaware of any other phylogenomic studies that demonstrate such a split between members of the same sequence type. However, intra-sequence type diversity, divergence and instances where core genome alignment does not strictly follow preceding typing schemes have been reported [
+                    <xref ref-type="bibr" rid="R7 R30 R31">7, 30, 31</xref>
+]. It is difficult to compare results between studies due to different methodologies, the effect of different reference genomes and the number of strains included in the analysis. Nonetheless, this result supports whole-genome core SNP phylogeny together with MLST to accurately resolve clonal groups [
+                    <xref ref-type="bibr" rid="R30">30</xref>
+].
+                </p>
+                <p>
+ST218 strains formed the second clade, whilst a single ST215 formed a third clade. Clade 4 was the largest and most diverse with respect to sequence types, containing ST10, ST34, ST43, ST44, ST48 and ST167. Major splits in the phylogeny were well supported; however, some poor node confidence values were present within the sub-clades of clade 4, usually at splits between ST10 strains. The major lineages did not cluster sequences based on continent of isolation, origin or source (
+                    <xref ref-type="fig" rid="F1">Fig. 1</xref>
+). There were numerous examples of sequences from disparate sources, origins and continents being closely related. This data supports a diverse clonal group consisting of multiple lineages with broad fitness characteristics that is globally dispersed and capable of inhabiting a wide variety of niches.
+                </p>
+            </sec>
+            <sec id="s2-6-2">
+                <title>
+Australian porcine
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+CC10 sequences in the context of global phylogeny
+                </title>
+                <p>
+Thirteen Australian porcine sequences belonged to clade 4 (
+                    <italic toggle="yes">n</italic>
+=13), while the remaining seven ST48 and ST218 sequences belonged to clades 1 and 2, respectively. This indicates that CC10 lineages have been introduced to Australian pigs multiple times. Within clade 4, a number of Australian porcine sequences clustered with temporally and geographically unrelated sequences. Sequences that clustered with Australian porcine strains included human blood, urine and faecal isolates, and turkey meat, chicken faecal and chicken meat isolates. This observation supports a growing body of literature that suggests CC10
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+are capable of colonizing a broad range of hosts in both commensal and pathogenic capacities, and does not preclude the possibility that porcine-origin CC10 are capable of causing extra-intestinal infection [
+                    <xref ref-type="bibr" rid="R14 R32">14, 32</xref>
+].
+                </p>
+                <p>
+Interestingly, Australian porcine sequences were mostly present on different sub-clades to the 14 other porcine faecal strains in the collection, indicating divergence and diversity among CC10 strains that colonize pigs. However, two examples of closely related pig-derived strains were present in clade 4. Porcine faecal strain EA2788, isolated in 1979 in the USA, was separated by 25 core SNPs from its closest Australian relative F2_2E. Strain AA8187, isolated in the USA in 2009 from pig meat was yet more closely related to F2_2E, separated by only nine core SNPs.
+                </p>
+                <p>
+These three sequences possessed similar VAG profiles; however, their resistance-gene profiles were vastly different. The Australian strain carried 15 ARGs compared to 7 in AA8187 and 3 in EA2788. Furthermore, F2_2E carried a full suite of IncF replicons (FII, FIA, FIB, FIC), whilst AA8187 carried an IncFIA and an IncHI1 replicon, and EA2788 carried an IncY replicon. These observations indicate that some CC10 strains are capable of persisting for long periods of time in association with the porcine gut. Whilst the actual genetic determinants of fitness in the porcine gut are not known, the phylogenetic similarity between these three strains likely reflects carriage of similar, if not identical, fitness factors. This persistence has previously been described between sows and their piglets, and is likely to persist on a global scale due to the common ancestry of all domestic pig breeds [
+                    <xref ref-type="bibr" rid="R33 R34">33, 34</xref>
+]. It would be interesting to see whether the similarity between these Australian and American porcine strains is reflected in CC10 isolates from China, which are underrepresented in this collection. China is the world’s largest producer of pork [
+                    <xref ref-type="bibr" rid="R35">35</xref>
+] and transfer of similar strains is likely to have occurred through trade of meat products and human travel between the two countries. A broader, globally sourced collection of porcine CC10 sequences would be useful to characterize dominant strains and determine the underlying genetic basis of their fitness. In contrast to the conservation of closely related strains, it is evident among pig-associated strains that variability still arises in the form of accessory gene content such as plasmids and ARGs, likely due to differential antimicrobial selective pressures between pork production systems worldwide.
+                </p>
+            </sec>
+            <sec id="s2-6-3">
+                <title>CC10 strains carry a wide variety of VAGs</title>
+                <p>
+We identified a total of 110 VAGs within the collection. Strains carried between 2 and 34 VAGs, with a mean of 10 VAGs per strain, revealing a wide variety of VAG profiles. The mean number of VAGs per strain by source was highest in humans (
+                    <italic toggle="yes">n</italic>
+=12), followed by food and environmental (
+                    <italic toggle="yes">n</italic>
+=10) and animals (
+                    <italic toggle="yes">n</italic>
+=7). No clear relationship between the VAG profiles and source or geography was evident when gene presence/absence was mapped alongside the SNP phylogeny (Fig. S2). Some closely related strains exhibited similar virulence profiles; however, they were rarely identical. We therefore conducted a non-metric MDS analysis of 194 unique virulence profiles by continent of isolation, sequence type and origin. This analysis did not separate strains based on any of these characteristics, suggesting that virulence profiles are detached from these factors (
+                    <xref ref-type="fig" rid="F2">Figs 2</xref>
+and S2) It should be noted that small sample sizes for some groups may obscure the true distributions inferred by the ellipses; however, this was unable to be avoided due to the limitations of publicly available sequence data. Overall, these observations highlight significant diversity in the virulence potential of CC10 strains and suggest lateral gene transfer and homologous recombination events that are unrelated to core phylogeny or source of isolation play a major role in CC10 diversity [
+                    <xref ref-type="bibr" rid="R36">36</xref>
+]. This also indicates that the underlying genetic factors responsible for the fitness and global spread of CC10 are unlikely to be related to our current understanding of virulence potential. This is an area for further investigation.
+                </p>
+                <fig fig-type="figure" id="F2" position="float" orientation="portrait">
+                    <label>Fig. 2.</label>
+                    <caption>
+                        <p>
+Non-metric MDS graph of 194 unique virulence gene profiles grouped by 95 % CI ellipses for origin of the isolate, sequence type and continent of isolation. NB Some characteristics contained too few data points for ellipses to be calculated.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="mgen000225-f2.gif" position="float" orientation="portrait"/>
+                </fig>
+                <p>
+ExPEC-associated genes were among the most common genes detected in the collection. These included
+                    <italic toggle="yes">fimH</italic>
+(
+                    <italic toggle="yes">n</italic>
+=206, 83 %)
+                    <italic toggle="yes">, traT</italic>
+(
+                    <italic toggle="yes">n</italic>
+=148, 60 %)
+                    <italic toggle="yes">, iss</italic>
+(
+                    <italic toggle="yes">n</italic>
+=134, 54 %) and iron-acquisition-associated genes such as
+                    <italic toggle="yes">irp2, fyuA, sitA, iutA</italic>
+and
+                    <italic toggle="yes">iucD</italic>
+(
+                    <italic toggle="yes">n</italic>
+=88, 35 %;
+                    <italic toggle="yes">n</italic>
+=92, 37 %;
+                    <italic toggle="yes">n</italic>
+=56, 23 %;
+                    <italic toggle="yes">n</italic>
+=23, 9 %;
+                    <italic toggle="yes">n</italic>
+=44, 18 %; respectively)
+                    <italic toggle="yes">. pap</italic>
+operon pilus-assembly and
+                    <italic toggle="yes">kpsMTII</italic>
+capsular antigen genes were also detected. Carriage of ExPEC virulence factors has been previously reported in CC10 and may reflect the association of many of these genes with intestinal fitness [
+                    <xref ref-type="bibr" rid="R37">37</xref>
+], conversely it may imply that innately fit and widespread lineages are simply more likely to acquire virulence genes. VAGs associated with enteric pathotypes were uncommon by comparison to ExPEC factors. Only 14 strains carried an
+                    <italic toggle="yes">stx</italic>
+variant characteristic of Shiga-toxigenic
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+(STEC). One of these carried both
+                    <italic toggle="yes">stx1B</italic>
+and
+                    <italic toggle="yes">stx2B.</italic>
+Subtypes were not determined. These genes are typically acquired via bacteriophage transduction [
+                    <xref ref-type="bibr" rid="R38">38</xref>
+]. This observation highlights that abundant clonal groups such as CC10 may acquire virulence traits typical of both ExPEC and InPEC.
+                </p>
+                <p>
+The mean number of VAGs (
+                    <italic toggle="yes">n</italic>
+=6) in Australian porcine faecal strains was lower than the collection mean (
+                    <italic toggle="yes">n</italic>
+=10). The most common ExPEC VAGs among porcine faecal strains were
+                    <italic toggle="yes">fimH</italic>
+(
+                    <italic toggle="yes">n</italic>
+=16/20, 80 %),
+                    <italic toggle="yes">traT</italic>
+(
+                    <italic toggle="yes">n</italic>
+=15/20, 75 %)
+                    <italic toggle="yes">hek, irp2</italic>
+and
+                    <italic toggle="yes">fyuA</italic>
+(all
+                    <italic toggle="yes">n</italic>
+=5/20, 25 %). VAGs of intestinal pathotypes were not identified. Overall, the low abundance of VAGs suggests low virulence potential of these strains. In contrast, CC10 strains have been isolated from pigs with extra-intestinal infections in China, suggesting that porcine CC10 may acquire VAGs that cause ExPEC in the same host [
+                    <xref ref-type="bibr" rid="R32">32</xref>
+]. It is unknown whether these strains have developed virulence in the porcine gut via lateral gene transfer or whether they are virulent strains introduced by humans to porcine production environments.
+                </p>
+            </sec>
+            <sec id="s2-6-4">
+                <title>Resistance genes</title>
+                <p>
+We identified 73 ARGs in the total collection, with a range of 0 to 19 ARGs per strain and a mean of 5 per strain (Table S1). The mean number of ARGs by origin was 7 for environmental, 6 for animals and humans, and 4 for food-derived strains. Class 1 integrase gene
+                    <italic toggle="yes">intI1</italic>
+was present in 77 strains (31 %), whilst class 2 integrase
+                    <italic toggle="yes">intI2</italic>
+was present in 29 strains (12 %). Genes conferring resistance to older classes of antibiotics, such as streptomycin (
+                    <italic toggle="yes">strB/aph(</italic>
+6′
+                    <italic toggle="yes">)-Id</italic>
+,
+                    <italic toggle="yes">n</italic>
+=105, 42 %;
+                    <italic toggle="yes">strA/aph</italic>
+(3′
+                    <italic toggle="yes">)-Ib</italic>
+,
+                    <italic toggle="yes">n</italic>
+=113, 46 %), penicillin (
+                    <italic toggle="yes">bla</italic>
+                    <sub>TEM-1B</sub>
+;
+                    <italic toggle="yes">n</italic>
+=93, 38 %), aminoglycosides (
+                    <italic toggle="yes">aadA1</italic>
+;
+                    <italic toggle="yes">n</italic>
+=65, 26 %), tetracycline (
+                    <italic toggle="yes">tetA</italic>
+;
+                    <italic toggle="yes">n</italic>
+=105, 42 %) and sulphonamides (
+                    <italic toggle="yes">sul2</italic>
+;
+                    <italic toggle="yes">n</italic>
+=98, 40 %), were most common in the collection. ESBL genes were not common; however, they were represented by a variety of genes, notably
+                    <italic toggle="yes">bla</italic>
+                    <sub>CTX-M-32</sub>
+(
+                    <italic toggle="yes">n</italic>
+=17, 7 %),
+                    <italic toggle="yes">bla</italic>
+                    <sub>CTX-M-15</sub>
+(
+                    <italic toggle="yes">n</italic>
+=11, 4 %),
+                    <italic toggle="yes">bla</italic>
+                    <sub>CMY</sub>
+(
+                    <italic toggle="yes">n</italic>
+=13, 5 %) and
+                    <italic toggle="yes">bla</italic>
+                    <sub>OXA1</sub>
+(
+                    <italic toggle="yes">n</italic>
+=10, 4 %).
+                </p>
+                <p>
+ESBL carriage in this collection of CC10 is diverse, but not particularly abundant. This is interesting given numerous reports in the literature pointing to CC10 as a common source of ESBL genes [
+                    <xref ref-type="bibr" rid="R21 R39 R40">21, 39, 40</xref>
+]. This once again demonstrates the current limitations of data-mining and the need for more publicly available sequences to develop an accurate understanding of ESBL carriage in CC10 and
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+collectively. This is particularly illustrated by the fact that ST10 was identified as the most common ESBL-positive sequence type in Taiwanese river water [
+                    <xref ref-type="bibr" rid="R18">18</xref>
+]. The ability of CC10 to survive in river water has implications for its ability to disseminate, and increases its exposure to diverse niches and ability to spread ESBL genes.
+                </p>
+                <p>
+Colistin-resistance gene
+                    <italic toggle="yes">mcr1</italic>
+was present in five sequences, four of which originated from wastewater, a known reservoir of ARGs and mobile elements that transfer them [
+                    <xref ref-type="bibr" rid="R41">41</xref>
+]. Like ESBL carriage,
+                    <italic toggle="yes">mcr</italic>
+carriage in CC10 is commonly reported in the literature in contrast to the collection examined here [
+                    <xref ref-type="bibr" rid="R42 R43 R44">42–44</xref>
+]. A 2018 study by García and colleagues found that ST10 was the primary carrier of
+                    <italic toggle="yes">mcr-4</italic>
+and
+                    <italic toggle="yes">mcr-5</italic>
+variants in a collection of colistin-resistant porcine enterotoxigenic
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+(ETEC) in Spain. This highlights the danger of exposing a successful lineage like CC10, within which the line between commensalism and pathogenicity is ill defined, to critically important antibiotics, as they are likely to acquire resistance rapidly.
+                </p>
+                <p>
+The mean number of ARGs for Australian porcine CC10 was 11, more than double that of the collection as a whole. This discrepancy is likely a result of the extensive history of antimicrobial use at the farm where the strains were isolated and selection of
+                    <italic toggle="yes">intI1</italic>
+-positive strains as a proxy for multiple-drug resistance [
+                    <xref ref-type="bibr" rid="R45">45</xref>
+]. A family of related integrons was abundant in this collection and responsible for a proportion of the extensive resistance [
+                    <xref ref-type="bibr" rid="R16">16</xref>
+]. The carriage of
+                    <italic toggle="yes">sul3</italic>
+in the Australian porcine strains was high (
+                    <italic toggle="yes">n</italic>
+=13/20; 65 %) relative to the rest of the collection (
+                    <italic toggle="yes">n</italic>
+=11/228; 5 %). This is likely a reflection of the lower carriage of class 1 integrons in the overall collection compared to the Australian isolates included in this study (all
+                    <italic toggle="yes">intI1</italic>
+                    <sup>+</sup>
+) as
+                    <italic toggle="yes">sul3</italic>
+is associated with atypical class 1 integrons [
+                    <xref ref-type="bibr" rid="R16">16</xref>
+]. Carriage of
+                    <italic toggle="yes">sul3</italic>
+has an established association with
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+from porcine sources [
+                    <xref ref-type="bibr" rid="R46">46</xref>
+]. ESBL and
+                    <italic toggle="yes">mcr</italic>
+carriage was not observed in the Australian strains. It is difficult to compare our Australian porcine strains to the global strains with respect to AMR; however, it is clear that AMR depends on the exposure history of the strain as opposed to its physical or geographical source.
+                </p>
+            </sec>
+            <sec id="s2-6-5">
+                <title>Plasmid replicons</title>
+                <p>
+We identified 21 plasmid Inc replicons in the collection. Strains carried between zero and seven replicons with a mean of two. IncF replicons dominated, FII (
+                    <italic toggle="yes">n</italic>
+=163, 66 %), FIB (
+                    <italic toggle="yes">n</italic>
+=122, 49 %), followed by IncI1 (
+                    <italic toggle="yes">n</italic>
+=66, 27 %) and IncX1 (
+                    <italic toggle="yes">n</italic>
+=45, 18 %). IncF and IncI1 plasmid families in particular are frequently implicated in the spread of ARGs and are likely to play a role in the observed ARG carriage in this collection of CC10 [
+                    <xref ref-type="bibr" rid="R47">47</xref>
+]. The global expansion of ST131 ExPEC provides a cautionary tale in underestimating the potential for faecal commensal strains to pose a threat to human health. Like most ExPEC, ST131 is associated with human faeces and multiple IncF plasmids that carry extensive arrays of drug-resistance genes. ST131, in conjunction with these plasmids, has expanded to become the predominant ESBL-producing clone in hospital- and community-acquired ExPEC infections [
+                    <xref ref-type="bibr" rid="R7 R48">7, 48</xref>
+]. It is conceivable that such a plasmid expansion event associated with a CC10 strain could yield a conjugative plasmid with serious AMR and virulence characteristics. As CC10 is a common faecal commensal of both animal and humans, can cause human ExPEC infections, inhabit diverse environmental niches and carry a wide variety of resistance-associated plasmids, it is critical that this lineage is monitored in the context of human health.
+                </p>
+                <p>
+Australian porcine CC10 also carried IncF replicons: FII (
+                    <italic toggle="yes">n</italic>
+=13, 65 %), FIB (
+                    <italic toggle="yes">n</italic>
+=13, 65 %), IncI1 (
+                    <italic toggle="yes">n</italic>
+=7, 35 %) and IncX1 (
+                    <italic toggle="yes">n</italic>
+=10, 50 %) replicons. It is not known whether these plasmid types have been acquired on multiple occasions by CC10 or have remained stable in sub-lineages over long periods of time. IncHI2 was notably carried by eight strains (40 %), and was abundant in the larger collection of previously described porcine strains from Australia [
+                    <xref ref-type="bibr" rid="R16">16</xref>
+]. This is in contrast to the rest of the CC10 collection, where IncHI2 was only present in 11 other strains. The IncHI2 replicons in the Australian porcine strains were all of the same pMLST (plasmid-based multilocus sequence typing) type ST3, suggesting a localized plasmid-acquisition event. This is supported by reports of highly related IncHI2 plasmids with multiple resistance genes circulating in both
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+and
+                    <italic toggle="yes">
+                        <named-content content-type="genus">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3291" xlink:type="simple">Salmonella</ext-link>
+                        </named-content>
+                    </italic>
+sp. in the Asia Pacific region [
+                    <xref ref-type="bibr" rid="R49 R50">49, 50</xref>
+]. This once again highlights the ability of CC10 and successful commensals to acquire diverse plasmids that carry drug-resistance genes.
+                </p>
+                <p>
+Mapping of plasmid and resistance-gene carriage to the SNP tree did not appear to link phylogeny or origin with gene carriage (Fig. S3). Furthermore, MDS analysis of 211 unique plasmid replicon and resistance-gene profiles did not cluster strains based on continent of isolation, sequence type or origin (
+                    <xref ref-type="fig" rid="F3">Fig. 3</xref>
+). Similar to the case with virulence genes, it appears that due to the widespread and diverse nature of CC10, accessory-gene carriage is not associated with the geography or source of the isolates. However, it is possible that trends could be observed if sample geography or source was restricted. Similarly, trends might emerge if a larger, more comprehensively sampled collection were analysed. Further studies with controlled sampling and sufficient metadata are required to explore this.
+                </p>
+                <fig fig-type="figure" id="F3" position="float" orientation="portrait">
+                    <label>Fig. 3.</label>
+                    <caption>
+                        <p>
+Non-metric MDS graph of 211 unique plasmid replicon and ARGs profiles grouped by 95 % CI ellipses for origin of the isolate, sequence type and continent of isolation. NB Some characteristics contained too few data points for ellipses to be calculated.
+                        </p>
+                    </caption>
+                    <graphic xlink:href="mgen000225-f3.gif" position="float" orientation="portrait"/>
+                </fig>
+            </sec>
+            <sec id="s2-6-6">
+                <title>Conclusions</title>
+                <p>
+This genomic analysis has demonstrated that CC10 is highly diverse with respect to the core genome as well as accessory elements. This diversity is illustrated by its host and geographical range and suggests a core set of fitness traits that are yet to be genetically defined and characterized. It is likely, as in the case of other global lineages of
+                    <italic toggle="yes">
+                        <named-content content-type="species">
+                            <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">E. coli</ext-link>
+                        </named-content>
+                    </italic>
+, that recombination and genomic islands in the chromosome play a role in its success. These attributes should be investigated in future work. Whilst this study is relatively large in scale, it is limited by our inability to control and balance sample sizes from different sources and geographical regions. As online databases of whole-genome data continue to grow, the scale of these studies should be expanded to elucidate epidemiological features that cannot be determined currently. We suspect the apparent abundance of CC10 in human faeces indicates humans are the predominant intermediaries between strains found in other animals and environments. The dispersion of Australian porcine sequences throughout the phylogeny indicates they are derived from multiple lineages within CC10 that are well adapted to the porcine gut. The variety of VAGs and ARGs suggests that these mobilized genetic traits are decoupled from phylogeny and depend instead on the history of each individual strain.
+                </p>
+            </sec>
+        </sec>
+        <sec id="s1-7">
+            <title>Data bibliography</title>
+            <list list-type="order">
+                <list-item>
+                    <p>
+Zankari E, Hasman H, Cosentino S, Vestergaard M, Rasmussen S
+                        <italic toggle="yes">et al</italic>
+. Identification of acquired antimicrobial resistance genes.
+                        <italic toggle="yes">J Antimicrob Chemother</italic>
+2012;67:2640–2644.
+                    </p>
+                </list-item>
+                <list-item>
+                    <p>
+Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS
+                        <italic toggle="yes">et al</italic>
+. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic
+                        <italic toggle="yes">
+                            <named-content content-type="species">
+                                <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                            </named-content>
+                        </italic>
+.
+                        <italic toggle="yes">J Clin Microbiol</italic>
+2014;52:1501–1510.
+                    </p>
+                </list-item>
+                <list-item>
+                    <p>
+Carattoli A, Zankari E, Garcia-Fernandez A, Voldby Larsen M, Lund O
+                        <italic toggle="yes">et al</italic>
+.
+                        <italic toggle="yes">In silico</italic>
+detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing.
+                        <italic toggle="yes">Antimicrob Agents Chemother</italic>
+2014;58:3895–3903.
+                    </p>
+                </list-item>
+                <list-item>
+                    <p>
+Joensen KG, Tetzschner AM, Iguchi A, Aarestrup FM, Scheutz F. Rapid and easy in silico serotyping of
+                        <italic toggle="yes">
+                            <named-content content-type="species">
+                                <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1601/nm.3093" xlink:type="simple">Escherichia coli</ext-link>
+                            </named-content>
+                        </italic>
+isolates by use of whole-genome sequencing data.
+                        <italic toggle="yes">J Clin Microbiol</italic>
+2015;53:2410–2426.
+                    </p>
+                </list-item>
+            </list>
+        </sec>
+    </body>
+    <back>
+        <ack id="ack1">
+            <title>Funding information</title>
+            <p>
+This work was supported by the Australian Research Council, linkage grant LP150100912. This project was partly funded by the Australian Centre for Genomic Epidemiological Microbiology (Ausgem), a collaborative partnership between the NSW Department of Primary Industries and the University of Technology Sydney. C. J. R. is a recipient of an Australian Government Research Training Program Scholarship.
+            </p>
+        </ack>
+        <ack id="ack2">
+            <title>Acknowledgements</title>
+            <p>
+C. J. R. would like to acknowledge Aaron Darling, Piklu Roy Chowdhury, Toni Chapman and Michael Liu for their technical guidance and mentoring.
+            </p>
+        </ack>
+        <ack id="ack3">
+            <title>Conflicts of interest</title>
+            <p content-type="COI-statement">
+The authors declare that there are no conflicts of interest.
+            </p>
+        </ack>
+        <app-group>
+            <app content-type="supplementary-data">
+                <title>Supplementary Data</title>
+                <supplementary-material xlink:href="000225.pdf" id="supp1" mime-subtype="pdf" mimetype="application" position="float" xlink:type="simple" orientation="portrait">
+                    <caption>
+                        <title>Supplementary File 1</title>
+                    </caption>
+                </supplementary-material>
+                <table-wrap id="mbs-443-tabletest" position="float" orientation="portrait">
+                    <label>Table 2.</label>
+                    <caption>
+                        <title>Test table</title>
+                        <p>Test caption</p>
+                    </caption>
+                    <table>
+                        <thead style="border-bottom: thin solid; border-top: thin solid; border-color: #0">
+                            <tr valign="top">
+                                <td align="left" valign="top" rowspan="1" colspan="1">Function</td>
+                                <td align="center" valign="top" rowspan="1" colspan="1">Whole set</td>
+                                <td align="center" valign="top" rowspan="1" colspan="1">SELEX-chip (%)</td>
+                                <td align="center" valign="top" rowspan="1" colspan="1">DB+ChIP-chip (%)</td>
+                            </tr>
+                        </thead>
+                        <tbody style="border-color: #000000; border-bottom: thin solid">
+                            <tr valign="top">
+                                <td align="left" valign="top" rowspan="1" colspan="1">Transporter</td>
+                                <td align="char" char="." valign="top" rowspan="1" colspan="1">43</td>
+                                <td align="char" char="." valign="top" rowspan="1" colspan="1">35 (81)</td>
+                                <td align="char" char="." valign="top" rowspan="1" colspan="1">24 (56)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+            </app>
+            <app content-type="supplementary-data">
+                <title>Supplementary Data</title>
+                <supplementary-material xlink:href="000225.xlsx" id="supp2" mime-subtype="xlsx" mimetype="application" position="float" xlink:type="simple" orientation="portrait">
+                    <caption>
+                        <title>Supplementary File 2</title>
+                    </caption>
+                </supplementary-material>
+            </app>
+        </app-group>
+        <ref-list>
+            <title>References</title>
+            <ref id="R1">
+                <label>1</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Poolman</surname>
+                            <given-names>JT</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Wacker</surname>
+                            <given-names>M</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Extraintestinal pathogenic
+                        <italic toggle="yes">Escherichia coli</italic>
+, a common human pathogen: challenges for vaccine development and progress in the field
+                    </article-title>
+                    <source>J Infect Dis</source>
+                    <year>2016</year>
+                    <volume>213</volume>
+                    <fpage>6</fpage>
+                    <lpage>13</lpage>
+                    <pub-id pub-id-type="doi">10.1093/infdis/jiv429</pub-id>
+                    <pub-id pub-id-type="pmid">26333944</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R2">
+                <label>2</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>O'Neill</surname>
+                            <given-names>J</given-names>
+                        </name>
+                    </person-group>
+                    <source>
+Tackling Drug-Resistant Infections Globally: Final Report and Recommendations
+                    </source>
+                    <publisher-loc>London</publisher-loc>
+                    <publisher-name>Wellcome Trust, UK Government</publisher-name>
+                    <year>2016</year>
+                </element-citation>
+            </ref>
+            <ref id="R3">
+                <label>3</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Kaper</surname>
+                            <given-names>JB</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Nataro</surname>
+                            <given-names>JP</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Mobley</surname>
+                            <given-names>HL</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Pathogenic
+                        <italic toggle="yes">Escherichia coli</italic>
+                    </article-title>
+                    <source>Nat Rev Microbiol</source>
+                    <year>2004</year>
+                    <volume>2</volume>
+                    <fpage>123</fpage>
+                    <lpage>140</lpage>
+                    <pub-id pub-id-type="doi">10.1038/nrmicro818</pub-id>
+                    <pub-id pub-id-type="pmid">15040260</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R4">
+                <label>4</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Fair</surname>
+                            <given-names>RJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Tor</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Antibiotics and bacterial resistance in the 21st century
+                    </article-title>
+                    <source>Perspect Medicin Chem</source>
+                    <year>2014</year>
+                    <volume>6</volume>
+                    <fpage>25</fpage>
+                    <lpage>64</lpage>
+                    <pub-id pub-id-type="doi">10.4137/PMC.S14459</pub-id>
+                    <pub-id pub-id-type="pmid">25232278</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R5">
+                <label>5</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Roy Chowdhury</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Charles</surname>
+                            <given-names>IG</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Djordjevic</surname>
+                            <given-names>SP</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+A role for Tn6029 in the evolution of the complex antibiotic resistance gene loci in genomic island 3 in enteroaggregative hemorrhagic
+                        <italic toggle="yes">Escherichia coli</italic>
+O104:H4
+                    </article-title>
+                    <source>PLoS One</source>
+                    <year>2015</year>
+                    <volume>10</volume>
+                    <elocation-id>e0115781</elocation-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0115781</pub-id>
+                    <pub-id pub-id-type="pmid">25675217</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R6">
+                <label>6</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Rohde</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Qin</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Cui</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Li</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Loman</surname>
+                            <given-names>NJ</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Open-source genomic analysis of Shiga-toxin-producing
+                        <italic toggle="yes">E. coli</italic>
+O104:H4
+                    </article-title>
+                    <source>N Engl J Med</source>
+                    <year>2011</year>
+                    <volume>365</volume>
+                    <fpage>718</fpage>
+                    <lpage>724</lpage>
+                    <pub-id pub-id-type="doi">10.1056/NEJMoa1107643</pub-id>
+                    <pub-id pub-id-type="pmid">21793736</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R7">
+                <label>7</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Petty</surname>
+                            <given-names>NK</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Ben Zakour</surname>
+                            <given-names>NL</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Stanton-Cook</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Skippington</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Totsika</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Global dissemination of a multidrug resistant
+                        <italic toggle="yes">Escherichia coli</italic>
+clone
+                    </article-title>
+                    <source>Proc Natl Acad Sci USA</source>
+                    <year>2014</year>
+                    <volume>111</volume>
+                    <fpage>5694</fpage>
+                    <lpage>5699</lpage>
+                    <pub-id pub-id-type="doi">10.1073/pnas.1322678111</pub-id>
+                    <pub-id pub-id-type="pmid">24706808</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R8">
+                <label>8</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Wyrsch</surname>
+                            <given-names>ER</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Roy Chowdhury</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Chapman</surname>
+                            <given-names>TA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Charles</surname>
+                            <given-names>IG</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Hammond</surname>
+                            <given-names>JM</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Genomic microbial epidemiology is needed to comprehend the global problem of antibiotic resistance and to improve pathogen diagnosis
+                    </article-title>
+                    <source>Front Microbiol</source>
+                    <year>2016</year>
+                    <volume>7</volume>
+                    <fpage>843</fpage>
+                    <pub-id pub-id-type="doi">10.3389/fmicb.2016.00843</pub-id>
+                    <pub-id pub-id-type="pmid">27379026</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R9">
+                <label>9</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Djordjevic</surname>
+                            <given-names>SP</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Stokes</surname>
+                            <given-names>HW</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Roy Chowdhury</surname>
+                            <given-names>P</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Mobile elements, zoonotic pathogens and commensal bacteria: conduits for the delivery of resistance genes into humans, production animals and soil microbiota
+                    </article-title>
+                    <source>Front Microbiol</source>
+                    <year>2013</year>
+                    <volume>4</volume>
+                    <fpage>86</fpage>
+                    <pub-id pub-id-type="doi">10.3389/fmicb.2013.00086</pub-id>
+                    <pub-id pub-id-type="pmid">23641238</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R10">
+                <label>10</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Vincent</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Boerlin</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Daignault</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Dozois</surname>
+                            <given-names>CM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Dutil</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Food reservoir for
+                        <italic toggle="yes">Escherichia coli</italic>
+causing urinary tract infections
+                    </article-title>
+                    <source>Emerg Infect Dis</source>
+                    <year>2010</year>
+                    <volume>16</volume>
+                    <fpage>88</fpage>
+                    <lpage>95</lpage>
+                    <pub-id pub-id-type="doi">10.3201/eid1601.091118</pub-id>
+                    <pub-id pub-id-type="pmid">20031048</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R11">
+                <label>11</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Singer</surname>
+                            <given-names>RS</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Urinary tract infections attributed to diverse ExPEC strains in food animals: evidence and data gaps
+                    </article-title>
+                    <source>Front Microbiol</source>
+                    <year>2015</year>
+                    <volume>6</volume>
+                    <fpage>28</fpage>
+                    <pub-id pub-id-type="doi">10.3389/fmicb.2015.00028</pub-id>
+                    <pub-id pub-id-type="pmid">25699025</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R12">
+                <label>12</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Nordstrom</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Liu</surname>
+                            <given-names>CM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Price</surname>
+                            <given-names>LB</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Foodborne urinary tract infections: a new paradigm for antimicrobial-resistant foodborne illness
+                    </article-title>
+                    <source>Front Microbiol</source>
+                    <year>2013</year>
+                    <volume>4</volume>
+                    <fpage>29</fpage>
+                    <pub-id pub-id-type="doi">10.3389/fmicb.2013.00029</pub-id>
+                    <pub-id pub-id-type="pmid">23508293</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R13">
+                <label>13</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Dorado-García</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Smid</surname>
+                            <given-names>JH</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>van Pelt</surname>
+                            <given-names>W</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Bonten</surname>
+                            <given-names>MJM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Fluit</surname>
+                            <given-names>AC</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Molecular relatedness of ESBL/AmpC-producing
+                        <italic toggle="yes">Escherichia coli</italic>
+from humans, animals, food and the environment: a pooled analysis
+                    </article-title>
+                    <source>J Antimicrob Chemother</source>
+                    <year>2018</year>
+                    <volume>73</volume>
+                    <fpage>339</fpage>
+                    <lpage>347</lpage>
+                    <pub-id pub-id-type="doi">10.1093/jac/dkx397</pub-id>
+                    <pub-id pub-id-type="pmid">29165596</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R14">
+                <label>14</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Manges</surname>
+                            <given-names>AR</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Harel</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Masson</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Edens</surname>
+                            <given-names>TJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Portt</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Multilocus sequence typing and virulence gene profiles associated with
+                        <italic toggle="yes">Escherichia coli</italic>
+from human and animal sources
+                    </article-title>
+                    <source>Foodborne Pathog Dis</source>
+                    <year>2015</year>
+                    <volume>12</volume>
+                    <fpage>302</fpage>
+                    <lpage>310</lpage>
+                    <pub-id pub-id-type="doi">10.1089/fpd.2014.1860</pub-id>
+                    <pub-id pub-id-type="pmid">25774654</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R15">
+                <label>15</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Manges</surname>
+                            <given-names>AR</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Johnson</surname>
+                            <given-names>JR</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Food-borne origins of
+                        <italic toggle="yes">Escherichia coli</italic>
+causing extraintestinal infections
+                    </article-title>
+                    <source>Clin Infect Dis</source>
+                    <year>2012</year>
+                    <volume>55</volume>
+                    <fpage>712</fpage>
+                    <lpage>719</lpage>
+                    <pub-id pub-id-type="doi">10.1093/cid/cis502</pub-id>
+                    <pub-id pub-id-type="pmid">22615330</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R16">
+                <label>16</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Reid</surname>
+                            <given-names>CJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Wyrsch</surname>
+                            <given-names>ER</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Roy Chowdhury</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Zingali</surname>
+                            <given-names>T</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Liu</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Porcine commensal
+                        <italic toggle="yes">Escherichia coli</italic>
+: a reservoir for class 1 integrons associated with IS26
+                    </article-title>
+                    <source>Microb Genom</source>
+                    <year>2017</year>
+                    <volume>3</volume>
+                    <fpage>000143</fpage>
+                    <pub-id pub-id-type="doi">10.1099/mgen.0.000143</pub-id>
+                    <pub-id pub-id-type="pmid">29306352</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R17">
+                <label>17</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Liu</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Liu</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Li</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Hao</surname>
+                            <given-names>C</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+High prevalence of β-lactamase and plasmid-mediated quinolone resistance genes in extended-spectrum cephalosporin-resistant
+                        <italic toggle="yes">Escherichia coli</italic>
+from dogs in Shaanxi, China
+                    </article-title>
+                    <source>Front Microbiol</source>
+                    <year>2016</year>
+                    <volume>7</volume>
+                    <fpage>1843</fpage>
+                    <pub-id pub-id-type="doi">10.3389/fmicb.2016.01843</pub-id>
+                    <pub-id pub-id-type="pmid">27899921</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R18">
+                <label>18</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Chen</surname>
+                            <given-names>PA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Hung</surname>
+                            <given-names>CH</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Huang</surname>
+                            <given-names>PC</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Chen</surname>
+                            <given-names>JR</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Huang</surname>
+                            <given-names>IF</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Characteristics of CTX-M extended-spectrum β-lactamase-producing
+                        <italic toggle="yes">Escherichia coli</italic>
+strains isolated from multiple rivers in southern Taiwan
+                    </article-title>
+                    <source>Appl Environ Microbiol</source>
+                    <year>2016</year>
+                    <volume>82</volume>
+                    <fpage>1889</fpage>
+                    <lpage>1897</lpage>
+                    <pub-id pub-id-type="doi">10.1128/AEM.03222-15</pub-id>
+                    <pub-id pub-id-type="pmid">26773082</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R19">
+                <label>19</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Varela</surname>
+                            <given-names>AR</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Manageiro</surname>
+                            <given-names>V</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Ferreira</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Guimarães</surname>
+                            <given-names>MA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>da Costa</surname>
+                            <given-names>PM</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Molecular evidence of the close relatedness of clinical, gull and wastewater isolates of quinolone-resistant
+                        <italic toggle="yes">Escherichia coli</italic>
+                    </article-title>
+                    <source>J Glob Antimicrob Resist</source>
+                    <year>2015</year>
+                    <volume>3</volume>
+                    <fpage>286</fpage>
+                    <lpage>289</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.jgar.2015.07.008</pub-id>
+                    <pub-id pub-id-type="pmid">27842875</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R20">
+                <label>20</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Tan</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Tang</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Zhang</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Ding</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Zhao</surname>
+                            <given-names>Z</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Serotypes and virulence genes of extraintestinal pathogenic
+                        <italic toggle="yes">Escherichia coli</italic>
+isolates from diseased pigs in China
+                    </article-title>
+                    <source>Vet J</source>
+                    <year>2012</year>
+                    <volume>192</volume>
+                    <fpage>483</fpage>
+                    <lpage>488</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.tvjl.2011.06.038</pub-id>
+                    <pub-id pub-id-type="pmid">22036869</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R21">
+                <label>21</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Day</surname>
+                            <given-names>MJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Rodríguez</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>van Essen-Zandbergen</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Dierikx</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Kadlec</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Diversity of STs, plasmids and ESBL genes among
+                        <italic toggle="yes">Escherichia coli</italic>
+from humans, animals and food in Germany, the Netherlands and the UK
+                    </article-title>
+                    <source>J Antimicrob Chemother</source>
+                    <year>2016</year>
+                    <volume>71</volume>
+                    <fpage>1178</fpage>
+                    <lpage>1182</lpage>
+                    <pub-id pub-id-type="doi">10.1093/jac/dkv485</pub-id>
+                    <pub-id pub-id-type="pmid">26803720</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R22">
+                <label>22</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Croucher</surname>
+                            <given-names>NJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Page</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Connor</surname>
+                            <given-names>TR</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Delaney</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Keane</surname>
+                            <given-names>JA</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins
+                    </article-title>
+                    <source>Nucleic Acids Res</source>
+                    <year>2015</year>
+                    <volume>43</volume>
+                    <elocation-id>e15</elocation-id>
+                    <pub-id pub-id-type="doi">10.1093/nar/gku1196</pub-id>
+                    <pub-id pub-id-type="pmid">25414349</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R23">
+                <label>23</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Page</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Taylor</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Delaney</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Soares</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Seemann</surname>
+                            <given-names>T</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+                        <italic toggle="yes">SNP-sites</italic>
+: rapid efficient extraction of SNPs from multi-FASTA alignments
+                    </article-title>
+                    <source>Microb Genom</source>
+                    <year>2016</year>
+                    <volume>2</volume>
+                    <elocation-id>e000056</elocation-id>
+                    <pub-id pub-id-type="doi">10.1099/mgen.0.000056</pub-id>
+                    <pub-id pub-id-type="pmid">28348851</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R24">
+                <label>24</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Price</surname>
+                            <given-names>MN</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Dehal</surname>
+                            <given-names>PS</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Arkin</surname>
+                            <given-names>AP</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+FastTree 2 – approximately maximum-likelihood trees for large alignments
+                    </article-title>
+                    <source>PLoS One</source>
+                    <year>2010</year>
+                    <volume>5</volume>
+                    <elocation-id>e9490</elocation-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0009490</pub-id>
+                    <pub-id pub-id-type="pmid">20224823</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R25">
+                <label>25</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Letunic</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Bork</surname>
+                            <given-names>P</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees
+                    </article-title>
+                    <source>Nucleic Acids Res</source>
+                    <year>2016</year>
+                    <volume>44</volume>
+                    <fpage>W242</fpage>
+                    <lpage>W245</lpage>
+                    <pub-id pub-id-type="doi">10.1093/nar/gkw290</pub-id>
+                    <pub-id pub-id-type="pmid">27095192</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R26">
+                <label>26</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Yu</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Smith</surname>
+                            <given-names>DK</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Zhu</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Guan</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Lam</surname>
+                            <given-names>TT-Y</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+ggtree: an r package for visualization and annotation of phylogenetic trees with their covariates and other associated data
+                    </article-title>
+                    <source>Methods Ecol Evol</source>
+                    <year>2017</year>
+                    <volume>8</volume>
+                    <fpage>28</fpage>
+                    <lpage>36</lpage>
+                    <pub-id pub-id-type="doi">10.1111/2041-210X.12628</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R27">
+                <label>27</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Hunt</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Mather</surname>
+                            <given-names>AE</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Sánchez-Busó</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Page</surname>
+                            <given-names>AJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Parkhill</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+ARIBA: rapid antimicrobial resistance genotyping directly from sequencing reads
+                    </article-title>
+                    <source>Microb Genom</source>
+                    <year>2017</year>
+                    <volume>3</volume>
+                    <elocation-id>e000131</elocation-id>
+                    <pub-id pub-id-type="doi">10.1099/mgen.0.000131</pub-id>
+                    <pub-id pub-id-type="pmid">29177089</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R28">
+                <label>28</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Venables</surname>
+                            <given-names>WN</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Ripley</surname>
+                            <given-names>BD</given-names>
+                        </name>
+                    </person-group>
+                    <source>Modern Applied Statistics with S</source>
+                    <publisher-loc>New York</publisher-loc>
+                    <publisher-name>Springer</publisher-name>
+                    <year>2010</year>
+                </element-citation>
+            </ref>
+            <ref id="R29">
+                <label>29</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Oksanen</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Blanchet</surname>
+                            <given-names>FG</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Kindt</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Legendre</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Minchin</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <source>
+                        <italic toggle="yes">
+Vegan: Community Ecology Package. R Package version 2.0-10
+                        </italic>
+                    </source>
+                    <year>2013</year>
+                </element-citation>
+            </ref>
+            <ref id="R30">
+                <label>30</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Tsang</surname>
+                            <given-names>AKL</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Lee</surname>
+                            <given-names>HH</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Yiu</surname>
+                            <given-names>SM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Lau</surname>
+                            <given-names>SKP</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Woo</surname>
+                            <given-names>PCY</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Failure of phylogeny inferred from multilocus sequence typing to represent bacterial phylogeny
+                    </article-title>
+                    <source>Sci Rep</source>
+                    <year>2017</year>
+                    <volume>7</volume>
+                    <fpage>4536</fpage>
+                    <pub-id pub-id-type="doi">10.1038/s41598-017-04707-4</pub-id>
+                    <pub-id pub-id-type="pmid">28674428</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R31">
+                <label>31</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Ronco</surname>
+                            <given-names>T</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Stegger</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Olsen</surname>
+                            <given-names>RH</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Sekse</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Nordstoga</surname>
+                            <given-names>AB</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Spread of avian pathogenic
+                        <italic toggle="yes">Escherichia coli</italic>
+ST117 O78:H4 in Nordic broiler production
+                    </article-title>
+                    <source>BMC Genomics</source>
+                    <year>2017</year>
+                    <volume>18</volume>
+                    <fpage>13</fpage>
+                    <pub-id pub-id-type="doi">10.1186/s12864-016-3415-6</pub-id>
+                    <pub-id pub-id-type="pmid">28049430</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R32">
+                <label>32</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Ding</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Tang</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Lu</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Wu</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Xu</surname>
+                            <given-names>Z</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Clonal analysis and virulent traits of pathogenic extraintestinal
+                        <italic toggle="yes">Escherichia coli</italic>
+isolates from swine in China
+                    </article-title>
+                    <source>BMC Vet Res</source>
+                    <year>2012</year>
+                    <volume>8</volume>
+                    <fpage>140</fpage>
+                    <pub-id pub-id-type="doi">10.1186/1746-6148-8-140</pub-id>
+                    <pub-id pub-id-type="pmid">22909380</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R33">
+                <label>33</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Schierack</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Walk</surname>
+                            <given-names>N</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Ewers</surname>
+                            <given-names>C</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Wilking</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Steinrück</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+ExPEC-typical virulence-associated genes correlate with successful colonization by intestinal
+                        <italic toggle="yes">E. coli</italic>
+in a small piglet group
+                    </article-title>
+                    <source>Environ Microbiol</source>
+                    <year>2008</year>
+                    <volume>10</volume>
+                    <fpage>1742</fpage>
+                    <lpage>1751</lpage>
+                    <pub-id pub-id-type="doi">10.1111/j.1462-2920.2008.01595.x</pub-id>
+                    <pub-id pub-id-type="pmid">18373678</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R34">
+                <label>34</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Larson</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Dobney</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Albarella</surname>
+                            <given-names>U</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Fang</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Matisoo-Smith</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Worldwide phylogeography of wild boar reveals multiple centers of pig domestication
+                    </article-title>
+                    <source>Science</source>
+                    <year>2005</year>
+                    <volume>307</volume>
+                    <fpage>1618</fpage>
+                    <lpage>1621</lpage>
+                    <pub-id pub-id-type="doi">10.1126/science.1106927</pub-id>
+                    <pub-id pub-id-type="pmid">15761152</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R35">
+                <label>35</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Han</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>
+                    <source>Environmental Impacts of China's Pork Industry</source>
+                    <publisher-loc>Washington, DC</publisher-loc>
+                    <publisher-name>Wilson Center</publisher-name>
+                    <year>2014</year>
+                </element-citation>
+            </ref>
+            <ref id="R36">
+                <label>36</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Hao</surname>
+                            <given-names>W</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Allen</surname>
+                            <given-names>VG</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Jamieson</surname>
+                            <given-names>FB</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Low</surname>
+                            <given-names>DE</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Alexander</surname>
+                            <given-names>DC</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Phylogenetic incongruence in
+                        <italic toggle="yes">E. coli</italic>
+O104: understanding the evolutionary relationships of emerging pathogens in the face of homologous recombination
+                    </article-title>
+                    <source>PLoS One</source>
+                    <year>2012</year>
+                    <volume>7</volume>
+                    <elocation-id>e33971</elocation-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0033971</pub-id>
+                    <pub-id pub-id-type="pmid">22493677</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R37">
+                <label>37</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Russell</surname>
+                            <given-names>CW</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Fleming</surname>
+                            <given-names>BA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Jost</surname>
+                            <given-names>CA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Tran</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Stenquist</surname>
+                            <given-names>AT</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Context-dependent requirements for fimh and other canonical virulence factors in gut colonization by extraintestinal pathogenic
+                        <italic toggle="yes">Escherichia coli</italic>
+                    </article-title>
+                    <source>Infect Immun</source>
+                    <year>2018</year>
+                    <volume>86</volume>
+                    <elocation-id>e00746-17</elocation-id>
+                    <pub-id pub-id-type="doi">10.1128/IAI.00746-17</pub-id>
+                    <pub-id pub-id-type="pmid">29311232</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R38">
+                <label>38</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Krüger</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Lucchesi</surname>
+                            <given-names>PM</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+Shiga toxins and stx phages: highly diverse entities
+                    </article-title>
+                    <source>Microbiology</source>
+                    <year>2015</year>
+                    <volume>161</volume>
+                    <fpage>451</fpage>
+                    <lpage>462</lpage>
+                    <pub-id pub-id-type="doi">10.1099/mic.0.000003</pub-id>
+                    <pub-id pub-id-type="pmid">25479836</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R39">
+                <label>39</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Reuland</surname>
+                            <given-names>EA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Overdevest</surname>
+                            <given-names>IT</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Al Naiemi</surname>
+                            <given-names>N</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Kalpoe</surname>
+                            <given-names>JS</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Rijnsburger</surname>
+                            <given-names>MC</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+High prevalence of ESBL-producing Enterobacteriaceae carriage in Dutch community patients with gastrointestinal complaints
+                    </article-title>
+                    <source>Clin Microbiol Infect</source>
+                    <year>2013</year>
+                    <volume>19</volume>
+                    <fpage>542</fpage>
+                    <lpage>549</lpage>
+                    <pub-id pub-id-type="doi">10.1111/j.1469-0691.2012.03947.x</pub-id>
+                    <pub-id pub-id-type="pmid">22757622</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R40">
+                <label>40</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Wang</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Gibbons</surname>
+                            <given-names>JF</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Mcgrath</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Bai</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Li</surname>
+                            <given-names>F</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Molecular characterization of blaESBL-producing
+                        <italic toggle="yes">Escherichia coli</italic>
+cultured from pig farms in Ireland
+                    </article-title>
+                    <source>J Antimicrob Chemother</source>
+                    <year>2016</year>
+                    <volume>71</volume>
+                    <fpage>3062</fpage>
+                    <lpage>3065</lpage>
+                    <pub-id pub-id-type="doi">10.1093/jac/dkw278</pub-id>
+                    <pub-id pub-id-type="pmid">27494914</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R41">
+                <label>41</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Manaia</surname>
+                            <given-names>CM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Rocha</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Scaccia</surname>
+                            <given-names>N</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Marano</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Radu</surname>
+                            <given-names>E</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Antibiotic resistance in wastewater treatment plants: tackling the black box
+                    </article-title>
+                    <source>Environ Int</source>
+                    <year>2018</year>
+                    <volume>115</volume>
+                    <fpage>312</fpage>
+                    <lpage>324</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.envint.2018.03.044</pub-id>
+                    <pub-id pub-id-type="pmid">29626693</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R42">
+                <label>42</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>García</surname>
+                            <given-names>V</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>García-Meniño</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Mora</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Flament-Simon</surname>
+                            <given-names>SC</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Díaz-Jiménez</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Co-occurrence of mcr-1, mcr-4 and mcr-5 genes in multidrug-resistant ST10 enterotoxigenic and Shiga toxin-producing
+                        <italic toggle="yes">Escherichia coli</italic>
+in Spain (2006–2017)
+                    </article-title>
+                    <source>Int J Antimicrob Agents</source>
+                    <year>2018</year>
+                    <volume>52</volume>
+                    <fpage>104</fpage>
+                    <lpage>108</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.ijantimicag.2018.03.022</pub-id>
+                    <pub-id pub-id-type="pmid">29635007</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R43">
+                <label>43</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>El Garch</surname>
+                            <given-names>F</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>de Jong</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Bertrand</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Hocquet</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Sauget</surname>
+                            <given-names>M</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+mcr-1-like detection in commensal
+                        <italic toggle="yes">Escherichia coli</italic>
+and
+                        <italic toggle="yes">Salmonella</italic>
+spp. from food-producing animals at slaughter in Europe
+                    </article-title>
+                    <source>Vet Microbiol</source>
+                    <year>2018</year>
+                    <volume>213</volume>
+                    <fpage>42</fpage>
+                    <lpage>46</lpage>
+                    <pub-id pub-id-type="doi">10.1016/j.vetmic.2017.11.014</pub-id>
+                    <pub-id pub-id-type="pmid">29292002</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R44">
+                <label>44</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Matamoros</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>van Hattem</surname>
+                            <given-names>JM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Arcilla</surname>
+                            <given-names>MS</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Willemse</surname>
+                            <given-names>N</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Melles</surname>
+                            <given-names>DC</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Global phylogenetic analysis of
+                        <italic toggle="yes">Escherichia coli</italic>
+and plasmids carrying the mcr-1 gene indicates bacterial diversity but plasmid restriction
+                    </article-title>
+                    <source>Sci Rep</source>
+                    <year>2017</year>
+                    <volume>7</volume>
+                    <fpage>15364</fpage>
+                    <pub-id pub-id-type="doi">10.1038/s41598-017-15539-7</pub-id>
+                    <pub-id pub-id-type="pmid">29127343</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R45">
+                <label>45</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Gillings</surname>
+                            <given-names>MR</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Gaze</surname>
+                            <given-names>WH</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Pruden</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Smalla</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Tiedje</surname>
+                            <given-names>JM</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Using the class 1 integron-integrase gene as a proxy for anthropogenic pollution
+                    </article-title>
+                    <source>Isme J</source>
+                    <year>2015</year>
+                    <volume>9</volume>
+                    <fpage>1269</fpage>
+                    <lpage>1279</lpage>
+                    <pub-id pub-id-type="doi">10.1038/ismej.2014.226</pub-id>
+                    <pub-id pub-id-type="pmid">25500508</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R46">
+                <label>46</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Perreten</surname>
+                            <given-names>V</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Boerlin</surname>
+                            <given-names>P</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>
+A new sulfonamide resistance gene (sul3) in
+                        <italic toggle="yes">Escherichia coli</italic>
+is widespread in the pig population of Switzerland
+                    </article-title>
+                    <source>Antimicrob Agents Chemother</source>
+                    <year>2003</year>
+                    <volume>47</volume>
+                    <fpage>1169</fpage>
+                    <lpage>1172</lpage>
+                    <pub-id pub-id-type="doi">10.1128/AAC.47.3.1169-1172.2003</pub-id>
+                    <pub-id pub-id-type="pmid">12604565</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R47">
+                <label>47</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Rozwandowicz</surname>
+                            <given-names>M</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Brouwer</surname>
+                            <given-names>MSM</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Fischer</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Wagenaar</surname>
+                            <given-names>JA</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Gonzalez-Zorn</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Plasmids carrying antimicrobial resistance genes in Enterobacteriaceae
+                    </article-title>
+                    <source>J Antimicrob Chemother</source>
+                    <year>2018</year>
+                    <volume>73</volume>
+                    <fpage>1121</fpage>
+                    <lpage>1137</lpage>
+                    <pub-id pub-id-type="doi">10.1093/jac/dkx488</pub-id>
+                    <pub-id pub-id-type="pmid">29370371</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R48">
+                <label>48</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Johnson</surname>
+                            <given-names>TJ</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Danzeisen</surname>
+                            <given-names>JL</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Youmans</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Case</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Llop</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Separate F-Type plasmids have shaped the evolution of the H30 subclone of
+                        <italic toggle="yes">Escherichia coli</italic>
+sequence type 131
+                    </article-title>
+                    <source>mSphere</source>
+                    <year>2016</year>
+                    <volume>1</volume>
+                    <elocation-id>e00121-16</elocation-id>
+                    <pub-id pub-id-type="doi">10.1128/mSphere.00121-16</pub-id>
+                    <pub-id pub-id-type="pmid">27390780</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R49">
+                <label>49</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Chen</surname>
+                            <given-names>W</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Fang</surname>
+                            <given-names>T</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Zhou</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Zhang</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Shi</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+IncHI2 plasmids are predominant in antibiotic-resistant
+                        <italic toggle="yes">Salmonella</italic>
+isolates
+                    </article-title>
+                    <source>Front Microbiol</source>
+                    <year>2016</year>
+                    <volume>7</volume>
+                    <fpage>1566</fpage>
+                    <pub-id pub-id-type="doi">10.3389/fmicb.2016.01566</pub-id>
+                    <pub-id pub-id-type="pmid">27746775</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="R50">
+                <label>50</label>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name name-style="western">
+                            <surname>Fang</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Li</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Li</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Li</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name name-style="western">
+                            <surname>Liao</surname>
+                            <given-names>X</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>
+                    <article-title>
+Co-spread of metal and antibiotic resistance within ST3-IncHI2 plasmids from
+                        <italic toggle="yes">E. coli</italic>
+isolates of food-producing animals
+                    </article-title>
+                    <source>Sci Rep</source>
+                    <year>2016</year>
+                    <volume>6</volume>
+                    <fpage>25312</fpage>
+                    <pub-id pub-id-type="doi">10.1038/srep25312</pub-id>
+                    <pub-id pub-id-type="pmid">27143648</pub-id>
+                </element-citation>
+            </ref>
+        </ref-list>
+    </back>
+</article>
