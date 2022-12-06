@@ -3,7 +3,7 @@
   "description": "Custom Lens bundle.",
   "dependencies": {
     "ejs": "*",
-    "express": "3.21.x",
+    "express": "4.17.x",
     "lens": "angusgrant/lens",
     "underscore": "1.8.x"
   },
